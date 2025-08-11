@@ -1,0 +1,10 @@
+div{
+  height:600px;
+  width:600px;
+  background-color:rgb(130, 17, 130);
+  margin:0 auto;
+  margin-top:10px;
+  box-shadow:2px 2px 15px black; 
+  background-image:url(itl.cat_developer-wallpaper_2918133.png);
+  background-size:contain;
+}

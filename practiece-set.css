@@ -1,0 +1,101 @@
+/* div{
+    height:200px;
+    width:200px;
+    background-image: url("nature.jpg");
+    background-size: cover;
+    right:0;
+    position:fixed;
+    top:50px;
+} */
+/* body{
+    text-align:center;
+}
+
+div{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display:flex;
+}
+
+#container{
+    width:800px;
+    height:200px;
+
+}
+#box1{
+    background-color:aqua;
+}
+#box2{
+    background-color:pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color:indianred;
+}
+#box5{
+    background-color:steelblue;
+}
+h1{
+    color:black;
+    text-align:center;
+} */
+
+
+/* 
+#container{
+    display:flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction:column;
+    flex-direction:column-reverse;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content:center;
+    justify-content:space-around;
+    justify-content:space-between;
+    justify-content:baseline;
+    justify-content:first baseline;
+    justify-content:last baseline;
+    justify-content:space-evenly;
+} */
+
+body{
+    text-align:center;
+}
+div{
+    height:100px;
+    width:150px;
+    display:inline-block;
+    border:2px solid black;
+}
+#container{
+    width:600px;
+    height:600px;
+    display:flex-end;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:flex-start;
+    /* align-content:center; */
+
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color:pink;
+    height:200px;
+}
+#box3{
+    background-color:rgb(175, 170, 88);
+    height:75px;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color:steelblue;
+}

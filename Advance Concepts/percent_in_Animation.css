@@ -1,0 +1,28 @@
+.box{
+  height:100px;
+  width:300px;
+  background-color:pink;
+
+  animation-name:colorAnimation;
+  animation-duration:5s;
+  animation-timing-function: ease-in;
+  animation-delay:0;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+}
+
+@keyframes colorAnimation{
+  0%{
+    background-color: #C7FFD8;
+  }
+  25%{
+    background-color:#98DED9;
+  }
+  50%{
+    background-color:#0B2F9F;
+  }
+  75%{
+    background-color:#00879E;
+  }
+  100%{background-color:#161D6F;}
+}

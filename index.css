@@ -1,0 +1,58 @@
+button{
+  background-color: purple;
+  color:white;
+  font-size: 18px;
+  font-family:monospace;
+  margin-left: 10px;
+  padding:20px;
+  text-align: center;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: orange;
+  box-shadow:0px 0px 5px 5px rgba(0,0,0,0.5);
+}
+button:focus{
+  background-color: blue;
+}
+button:active{
+  background-color: pink;
+}
+input{
+  
+  padding:10px;
+  margin:20px 0;
+
+  
+  border:4px solid black;
+  box-shadow:2px 2px 5px rgba(0,0,0,0.9);
+  background-color: peachpuff;
+  color:white;
+}
+input:focus{
+  background-color:#E1AFD1;
+  color:black;
+}
+table,th,td{
+  border:1px solid black;
+}
+table{
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 500px;    
+}
+/* or give height & width as 50% or table layout as auto*/
+th{
+  background-color: aqua;
+  padding:15px;
+}
+td{
+  background-color: aquamarine;
+  padding:15px;
+}
+th:hover{
+  background-color:cadetblue
+}
+td:hover{
+  background-color:cornflowerblue;
+}

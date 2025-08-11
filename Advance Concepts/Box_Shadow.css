@@ -1,0 +1,8 @@
+div{
+  height:250px;
+  width:250px;
+  background-color:rgb(130, 17, 130);
+  margin:0 auto;
+  margin-top:10px;
+  box-shadow:2px 2px 15px black; 
+}

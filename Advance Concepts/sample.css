@@ -1,0 +1,27 @@
+#container{
+  height:400px;
+  width:400px;
+  background-color:white;
+  margin:10px auto;
+  border:2px solid #3D8D7A;
+  border-radius:10px;
+  display:flex; 
+  flex-direction:row;
+  justify-content:flex-start;
+  flex-wrap:wrap;
+  /* flex-wrap:wrap-reverse;
+  align-items: baseline; */
+  align-content:flex-start;
+}
+.Box{
+  height:100px;
+  width:100px;
+  margin:17px 15px 10px 15px;
+  /* padding-left:10px; */
+  background-color:gray;
+  border-radius:10px;
+  border:2px solid black;
+  font-size:3em;
+  text-align:center;
+
+}
